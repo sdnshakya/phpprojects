@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('ci') {
       steps {
-        sh 'vi "Test file ci"'
+        sh 'echo "Test file ci"'
         echo 'ci-done'
       }
     }
